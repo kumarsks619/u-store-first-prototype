@@ -1,0 +1,109 @@
+*{
+    scroll-behavior: smooth;
+}
+/* styling form scroll-bars */
+::-webkit-scrollbar{
+    width: 10px;
+    height: 10px;
+}
+::-webkit-scrollbar-track{
+    border-radius: 5px;
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #eee;
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 5px;
+    background-color: gray;
+}
+
+
+/* index page */
+.mainWall{
+    height: 32vw; 
+    clip-path: ellipse(50% 100% at 50% 0); 
+    shape-outside: ellipse(50% 100% at 50% 0);
+}
+.mainWall img{
+    filter: brightness(70%);
+}
+.mainWall .card-img-overlay{
+    height: fit-content;
+}
+.mainWall p{
+    font-size: 1.2rem;
+}
+.mainWall img{
+    transition: all 0.4s ease-in-out;
+    transform: scale(1);
+}
+.mainWall:hover img{
+    transform: scale(1.1);
+}
+
+/* sign up form */
+#signUpForm select option:hover{
+    background-color: grey;
+    color: #fff;
+}
+#selectAvatar label img{
+    height: 75px;
+    width: 75px;
+    border-radius: 50px;
+}
+#selectAvatar .dropdown-menu .dropdown-item:hover{
+    background-color: grey;
+}
+
+/* styling form scroll-bars */
+#selectState::-webkit-scrollbar, #selectCity::-webkit-scrollbar, #selectCollege::-webkit-scrollbar, #avatarDropdown::-webkit-scrollbar{
+    width: 10px;
+    height: 10px;
+}
+#selectState::-webkit-scrollbar-track, #selectCity::-webkit-scrollbar-track, #selectCollege::-webkit-scrollbar-track, #avatarDropdown::-webkit-scrollbar-track{
+    border-radius: 5px;
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #eee;
+}
+#selectState::-webkit-scrollbar-thumb, #selectCity::-webkit-scrollbar-thumb, #selectCollege::-webkit-scrollbar-thumb, #avatarDropdown::-webkit-scrollbar-thumb{
+    border-radius: 5px;
+    background-color: gray;
+}
+/*password visibilty toggle*/
+.signUpPwVisibilityToggle label:hover, .loginPwVisibilityToggle label:hover{
+    cursor: pointer;
+    color: black;
+}
+/*sign up button*/
+#signUp{
+    cursor: no-drop;
+}
+
+
+/* features section */
+.featContainer .card{
+    text-align: center;
+    height: 100%;
+    border-radius: 0.5rem;
+    transition: all 0.3s ease-in-out;
+    /* background-color: #eee; */
+    margin: 10px !important;
+}
+.featContainer .card:hover{
+    transform: scale(1.05);
+}
+.featSymbolWrapper{
+    height: 75px;
+    margin-bottom: 40px;
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+.featSymbol{
+    width: 110px;
+    height: 110px;
+    background-color: red;
+    font-size: 400%;
+}
+.featContainer .line{
+    border-top: 1.7px solid lightgray;
+}
+
+

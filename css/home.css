@@ -1,0 +1,39 @@
+/* product upload form */
+#uploadProgressBar .progress-bar{
+    width: 0;
+}
+
+/*browse products*************************************************************************************/
+.card-columns{
+    column-count: 4;
+}
+
+.productEditBtn{
+    font-size: 0.7rem;
+    padding: 2px 7px;
+}
+
+/*profile tab ******************************************************************************************/
+.profile-wrapper{
+    width: 75%;
+}
+.editBtn{
+    border-radius: 0 3px 3px 0 !important;
+}
+.doneBtn{
+    border-radius: 0 !important;
+}
+.editPwVisibilityToggle label:hover{
+    cursor: pointer;
+    color: black;
+}
+
+/*notification tab*******************************************************************************************/
+#notiWrapper{
+    height: 80vh;
+}
+
+#notiPreview{
+    height: 82vh;
+}
+
